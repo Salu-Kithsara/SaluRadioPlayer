@@ -1,5 +1,5 @@
-# SaluRadioPlayer [![Mentioned in Awesome Telegram Calls](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/tgcalls/awesome-tgcalls)
-![GitHub Repo stars](https://img.shields.io/github/stars/Salu-Kithsara/SaluRadioPlayer?color=blue&style=flat)
+# SaluRadioPlayer
+[![GitHub Repo stars](https://img.shields.io/github/stars/Salu-Kithsara/SaluRadioPlayer?color=blue&style=flat)
 [![Bot Updates](https://img.shields.io/badge/RadioPlayerV3-Updates%20Channel-green)](https://t.me/OUTBOX_Offlicial)
 [![Bot Support](https://img.shields.io/badge/RadioPlayerV3-Support%20Group-blue)OUTBOXTeam_Offlicial)
 
