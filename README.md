@@ -77,7 +77,7 @@ $ python3 main.py
 ## License
 ```sh
 RadioPlayerV3, Telegram Voice Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/Salu-Kithsara>
+Copyright (c) 2021  SaluKithsara <https://github.com/Salu-Kithsara>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
