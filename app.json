@@ -1,8 +1,8 @@
 {
-  "name": "Telegram Radio Player V3",
-  "description": "An Telegram Bot By Safone to Play Nonstop Radio/Music/YouTube Live in Telegram Voice Chats",
-  "repository": "https://github.com/AsmSafone/RadioPlayerV3",
-  "logo": "https://telegra.ph/file/a3755d9cb09f1361e3ac7.jpg",
+  "name": "Salu Radio Player",
+  "description": "An Telegram Bot By OUTBOX Offlicial to Play Nonstop Radio/Music/YouTube Live in Telegram Voice Chats",
+  "repository": "https://github.com/Salu-Kithsara/SaluRadioPlayer",
+  "logo": "https://telegra.ph/file/8df1014976e7a092be343.jpg",
   "stack": "container",
   "keywords": [
     "telegram",
@@ -62,7 +62,7 @@
     },
     "REPLY_MESSAGE": {
       "description": "A reply message to those who message the USER account in PM. Make it blank if you do not need this feature.",
-      "value": "Hello Sir, I'm a bot to play radio/music/youtube live on telegram voice chat, not having time to chat with you 😂!",
+      "value": "Hello🥰, I'm a bot to play radio/music/youtube live on telegram voice chat, Join Our Channel @OUTBOX_Offlicial",
       "required": false
     },
     "HEROKU_API_KEY": {
