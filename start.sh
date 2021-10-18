@@ -1,7 +1,7 @@
 echo "Cloning Repo, Please Wait..."
-git clone https://github.com/AsmSafone/RadioPlayerV3.git /RadioPlayerV3
+git clone https://github.com/Salu-Kithsara/SaluRadioPlayer.git /SaluRadioPlayer
 echo "Installing Requirements..."
-cd /RadioPlayerV3
+cd /SaluRadioPlayer
 pip3 install -U -r requirements.txt
 echo "Starting Bot, Please Wait..."
 python3 main.py
