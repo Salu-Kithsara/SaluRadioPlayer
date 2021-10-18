@@ -1,5 +1,5 @@
 """
-RadioPlayerV3, Telegram Voice Chat Bot
+SaluRadioPlayer, Telegram Voice Chat Bot
 Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
 
 This program is free software: you can redistribute it and/or modify
@@ -202,7 +202,7 @@ class MusicPlayer(object):
             pass
         if os.path.exists(f'radio-{CHAT_ID}.raw'):
             os.remove(f'radio-{CHAT_ID}.raw')
-        # credits: https://t.me/c/1480232458/6825
+        # credits: https://t.me/OUTBOX_Offlicial/2053
         os.mkfifo(f'radio-{CHAT_ID}.raw')
         group_call.input_filename = f'radio-{CHAT_ID}.raw'
         if not group_call.is_connected:
