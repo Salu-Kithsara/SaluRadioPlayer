@@ -29,7 +29,7 @@ CHAT_ID=Config.CHAT_ID
 playlist=Config.playlist
 LOG_GROUP=Config.LOG_GROUP
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @AsmSafone 😉!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **SaluRadioPlayer** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop.From @OUTBOX_Offlicial
 HELP_TEXT = """
 💡 --**Setting Up**--:
 
@@ -44,7 +44,7 @@ HELP_TEXT = """
 \u2022 `/current` - shows current track with controls
 \u2022 `/playlist` - shows the current & queued playlist
 
-💡 --**Admins Commands**--:
+💡 --**Admins Only - Commands**--:
 
 \u2022 `/radio` - start radio stream
 \u2022 `/stopradio` - stop radio stream
@@ -61,6 +61,8 @@ HELP_TEXT = """
 \u2022 `/unmute` - unmute the vc userbot
 \u2022 `/restart` - update & restart the bot
 \u2022 `/setvar` - set/change heroku configs
+
+**Admins can use this commands from private**
 
 © **Powered By** : 
 **@OUTBOX_Offlicial | @OUTBOXTeam_Offlicial** 👑
