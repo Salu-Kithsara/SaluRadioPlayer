@@ -63,7 +63,7 @@ HELP_TEXT = """
 \u2022 `/setvar` - set/change heroku configs
 
 © **Powered By** : 
-**@AsmSafone | @AsmSupport** 👑
+**@OUTBOX_Offlicial | @OUTBOXTeam_Offlicial** 👑
 """
 
 
@@ -197,12 +197,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/OUTBOX_Offlicial"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/OUTBOXTeam_Offlicial"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("SOURCE CODE", url="https://github.com/Salu-Kithsara/SaluRadioPlayer"),
             ],
             [
                 InlineKeyboardButton("BACK HOME", callback_data="home"),
@@ -224,12 +223,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/OUTBOX_Offlicial"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/OUTBOXTeam_Offlicial"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+              InlineKeyboardButton("SOURCE CODE", url="https://github.com/Salu-Kithsara/SaluRadioPlayer"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -262,19 +260,18 @@ async def start(client, message):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/OUTBOX_Offlicial"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/OUTBOXTeam_Offlicial"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("SOURCE CODE", url="https://github.com/Salu-Kithsara/SaluRadioPlayer"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    m=await message.reply_photo(photo="https://telegra.ph/file/4e839766d45935998e9c6.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
+    m=await message.reply_photo(photo="https://telegra.ph/file/a3755d9cb09f1361e3ac7.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
     await mp.delete(m)
     await mp.delete(message)
 
@@ -286,11 +283,10 @@ async def help(client, message):
                 InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/OUTBOX_Offlicial"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/OUTBOXTeam_Offlicial"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
                 InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
             ],
             [
@@ -318,7 +314,7 @@ async def set_heroku_var(client, message):
     if " " in message.text:
         cmd, env = message.text.split(" ", 1)
         if  not "=" in env:
-            k=await message.reply_text("❗ **You Should Specify The Value For Variable!** \n\nFor Example: \n`/setvar CHAT_ID=-1001313215676`")
+            k=await message.reply_text("❗ **You Should Specify The Value For Variable!** \n\nFor Example: \n`/setvar CHAT_ID=-1001391218899)
             await mp.delete(k)
             await mp.delete(message)
             return
