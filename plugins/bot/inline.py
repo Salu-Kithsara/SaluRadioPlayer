@@ -35,7 +35,7 @@ buttons = [
                 InlineKeyboardButton("SUPPORT", url="https://t.me/OUTBOXTeam_Offlicial"),
             ],
             [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/Salu-Kithsara/SaluRadioPlayer"),
             ]
          ]
 
@@ -47,9 +47,9 @@ async def search(client, query):
         answers.append(
             InlineQueryResultPhoto(
                 title="Deploy Your Own Radio Player",
-                thumb_url="https://telegra.ph/file/4e839766d45935998e9c6.jpg",
-                photo_url="https://telegra.ph/file/4e839766d45935998e9c6.jpg",
-                caption=f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@AsmSafone | @AsmSupport 👑</b>",
+                thumb_url="https://telegra.ph/file/a3755d9cb09f1361e3ac7.jpg",
+                photo_url="https://telegra.ph/file/a3755d9cb09f1361e3ac7.jpg",
+                caption=f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@OUTBOX_Offlicial | @OUTBOXTeam_Offlicial 👑</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
